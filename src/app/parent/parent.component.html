@@ -1,0 +1,9 @@
+<h2>Parent</h2>
+
+<button (click)="getParentMessage()">Get Parent Message</button>
+
+<app-child2 (messageEvent)="receiveMessage($event)"></app-child2>
+
+<p>
+    Message: {{ message }}
+</p>
